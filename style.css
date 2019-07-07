@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+#header{
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+  width: 100%;      
+}
+
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  
+  .navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  .navBar li {
+    float: left;
+  }
+  
+  .navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navBar li a:hover {
+    background-color: #111;
+  }
+
+  .navBar{
+    position: sticky;
+    width: 100%;
+  }
+
+  .clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-self: center;
+    background-color: peachpuff;
+    margin: 10px;
+   
+  }
+  .sport1{
+    border: 1px solid black;
+    padding:15px;
+  }
+  .sport2{
+    border: 1px solid black;
+    padding:15px;
+  }
+  .sport3{
+    border: 1px solid black;
+    padding:15px;
+  }
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    text-align: center; 
+  }
+
+  .side h4{
+    font-size: 25px;
+  }
+
+  .side li {
+    list-style-type: none;
+  }
+  .side ul {
+    
+    text-align: justify;
+    font-weight:650;
+    font-size: 17px;
+    padding-bottom: 15px;
+  }
+
+  
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .main h2 {
+    text-align: center;
+  }
+
+  .main p {
+    text-align: center; 
+  }
+
+  .footer {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    width: 100%;    
+  }
+
+.formHobby {
+  background-color: peachpuff;
+  margin: 10px;
+  padding:10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.buttonSubmit {
+  background-color:#1abc9c;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.externalLinks{
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  background-color:peachpuff; 
+  margin-top: 1100px;
+  text-align: center
+
+}
+
+
+
+.externalLinks a {
+  
+    color:crimson;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 20px;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .movie1 {
+    display:flex;
+    align-content: space-around;
+  }
+
+  .movie1 img {
+    margin-right:10px;
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+  .movie2 {
+    display:flex;
+    align-content: space-around;
+  }
+
+  .movie2 img {
+    margin-right:10px;
+    width: 120px;
+  }
+
+  .movie3 {
+    display:flex;
+    align-content: space-around;
+  }
+
+  .movie3 img {
+    margin-right:10px;
+    width: 120px;
+  }
+  .Paris-container {
+    position: relative;
+    background-color: #D0D0D0;
+    display: flex;
+  
+  }
+ 
+  .text-absolute{
+    position: absolute;
+    top: 40px;
+    
+    left:20px;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 800;
+  }
+
+  .text-Paris {
+    margin:10px;
+  }
+
+  .Paris-container img {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .text-Paris a {
+    color: crimson;
+    font-style: italic;
+  }
+
+ 
+
+ 
+    
+  
+  
+
+ 
+
+
